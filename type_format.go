@@ -14,37 +14,7 @@ func (receiver Type) Format(f fmt.State, c rune) {
 		var builder strings.Builder
 
 		for _, b := range receiver {
-			switch b & byteliteral.B10000000 {
-			case 0:
-				builder.WriteRune('░')
-			default:
-				builder.WriteRune('█')
-			}
-			switch b & byteliteral.B01000000 {
-			case 0:
-				builder.WriteRune('░')
-			default:
-				builder.WriteRune('█')
-			}
-			switch b & byteliteral.B00100000 {
-			case 0:
-				builder.WriteRune('░')
-			default:
-				builder.WriteRune('█')
-			}
-			switch b & byteliteral.B00010000 {
-			case 0:
-				builder.WriteRune('░')
-			default:
-				builder.WriteRune('█')
-			}
-			switch b & byteliteral.B00001000 {
-			case 0:
-				builder.WriteRune('░')
-			default:
-				builder.WriteRune('█')
-			}
-			switch b & byteliteral.B00000100 {
+			switch b & byteliteral.B00000001 {
 			case 0:
 				builder.WriteRune('░')
 			default:
@@ -56,7 +26,37 @@ func (receiver Type) Format(f fmt.State, c rune) {
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00000001 {
+			switch b & byteliteral.B00000100 {
+			case 0:
+				builder.WriteRune('░')
+			default:
+				builder.WriteRune('█')
+			}
+			switch b & byteliteral.B00001000 {
+			case 0:
+				builder.WriteRune('░')
+			default:
+				builder.WriteRune('█')
+			}
+			switch b & byteliteral.B00010000 {
+			case 0:
+				builder.WriteRune('░')
+			default:
+				builder.WriteRune('█')
+			}
+			switch b & byteliteral.B00100000 {
+			case 0:
+				builder.WriteRune('░')
+			default:
+				builder.WriteRune('█')
+			}
+			switch b & byteliteral.B01000000 {
+			case 0:
+				builder.WriteRune('░')
+			default:
+				builder.WriteRune('█')
+			}
+			switch b & byteliteral.B10000000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
