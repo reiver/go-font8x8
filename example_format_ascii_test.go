@@ -83,6 +83,27 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+0039 (9)   ARABIC DIGIT NINE\n\n")
 	fmt.Printf("%z\n", font8x8.U0039)
 
+	fmt.Print("U+003A (:)   COLON\n\n")
+	fmt.Printf("%z\n", font8x8.U003A)
+
+	fmt.Print("U+003B (;)   SEMICOLON\n\n")
+	fmt.Printf("%z\n", font8x8.U003B)
+
+	fmt.Print("U+003C (<)   LESS-THAN SIGN\n\n")
+	fmt.Printf("%z\n", font8x8.U003C)
+
+	fmt.Print("U+003D (=)   EQUALS SIGN\n\n")
+	fmt.Printf("%z\n", font8x8.U003D)
+
+	fmt.Print("U+003E (>)   GREATER-THAN SIGN\n\n")
+	fmt.Printf("%z\n", font8x8.U003E)
+
+	fmt.Print("U+003F (?)   QUESTION MARK\n\n")
+	fmt.Printf("%z\n", font8x8.U003F)
+
+	fmt.Print("U+0040 (@)   AT SIGN\n\n")
+	fmt.Printf("%z\n", font8x8.U0040)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -358,5 +379,82 @@ func ExampleType_Format_ascii() {
 	// ░░░░██░░
 	// ░░░██░░░
 	// ░███░░░░
+	// ░░░░░░░░
+	//
+	// U+003A (:)   COLON
+	//
+	// ░░░░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	//
+	// U+003B (;)   SEMICOLON
+	//
+	// ░░░░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░██░░░░░
+	//
+	// U+003C (<)   LESS-THAN SIGN
+	//
+	// ░░░██░░░
+	// ░░██░░░░
+	// ░██░░░░░
+	// ██░░░░░░
+	// ░██░░░░░
+	// ░░██░░░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	//
+	// U+003D (=)   EQUALS SIGN
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██████░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██████░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+003E (>)   GREATER-THAN SIGN
+	//
+	// ░██░░░░░
+	// ░░██░░░░
+	// ░░░██░░░
+	// ░░░░██░░
+	// ░░░██░░░
+	// ░░██░░░░
+	// ░██░░░░░
+	// ░░░░░░░░
+	//
+	// U+003F (?)   QUESTION MARK
+	//
+	// ░████░░░
+	// ██░░██░░
+	// ░░░░██░░
+	// ░░░██░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	//
+	// U+0040 (@)   AT SIGN
+	//
+	// ░█████░░
+	// ██░░░██░
+	// ██░████░
+	// ██░████░
+	// ██░████░
+	// ██░░░░░░
+	// ░████░░░
 	// ░░░░░░░░
 }
