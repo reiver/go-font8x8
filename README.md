@@ -1,6 +1,6 @@
 # go-font8x8
 
-Package **f0nt8x8** provides a set of 8×8 fonts for Unicode characters.
+Package **font8x8** provides a set of 8×8 fonts for Unicode characters.
 
 ## Documention
 
