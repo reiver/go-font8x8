@@ -117,18 +117,25 @@ func ExampleType_Format_ascii() {
 	fmt.Printf("%z\n", font8x8.U0044)
 
 	fmt.Print("U+0045 (E)   LATIN CAPITAL LETTER E\n\n")
+	fmt.Printf("%z\n", font8x8.U0045)
 
 	fmt.Print("U+0046 (F)   LATIN CAPITAL LETTER F\n\n")
+	fmt.Printf("%z\n", font8x8.U0046)
 
 	fmt.Print("U+0047 (G)   LATIN CAPITAL LETTER G\n\n")
+	fmt.Printf("%z\n", font8x8.U0047)
 
 	fmt.Print("U+0048 (H)   LATIN CAPITAL LETTER H\n\n")
+	fmt.Printf("%z\n", font8x8.U0048)
 
 	fmt.Print("U+0049 (I)   LATIN CAPITAL LETTER I\n\n")
+	fmt.Printf("%z\n", font8x8.U0049)
 
 	fmt.Print("U+004A (J)   LATIN CAPITAL LETTER J\n\n")
+	fmt.Printf("%z\n", font8x8.U004A)
 
 	fmt.Print("U+004B (K)   LATIN CAPITAL LETTER K\n\n")
+	fmt.Printf("%z\n", font8x8.U004B)
 
 	fmt.Print("U+004C (L)   LATIN CAPITAL LETTER L\n\n")
 
@@ -560,17 +567,80 @@ func ExampleType_Format_ascii() {
 	//
 	// U+0045 (E)   LATIN CAPITAL LETTER E
 	//
+	// ███████░
+	// ░██░░░█░
+	// ░██░█░░░
+	// ░████░░░
+	// ░██░█░░░
+	// ░██░░░█░
+	// ███████░
+	// ░░░░░░░░
+	//
 	// U+0046 (F)   LATIN CAPITAL LETTER F
+	//
+	// ███████░
+	// ░██░░░█░
+	// ░██░█░░░
+	// ░████░░░
+	// ░██░█░░░
+	// ░██░░░░░
+	// ████░░░░
+	// ░░░░░░░░
 	//
 	// U+0047 (G)   LATIN CAPITAL LETTER G
 	//
+	// ░░████░░
+	// ░██░░██░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░███░
+	// ░██░░██░
+	// ░░█████░
+	// ░░░░░░░░
+	//
 	// U+0048 (H)   LATIN CAPITAL LETTER H
+	//
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██████░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░░░░░░░░
 	//
 	// U+0049 (I)   LATIN CAPITAL LETTER I
 	//
+	// ░████░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
 	// U+004A (J)   LATIN CAPITAL LETTER J
 	//
+	// ░░░████░
+	// ░░░░██░░
+	// ░░░░██░░
+	// ░░░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
 	// U+004B (K)   LATIN CAPITAL LETTER K
+	//
+	// ███░░██░
+	// ░██░░██░
+	// ░██░██░░
+	// ░████░░░
+	// ░██░██░░
+	// ░██░░██░
+	// ███░░██░
+	// ░░░░░░░░
 	//
 	// U+004C (L)   LATIN CAPITAL LETTER L
 	//
