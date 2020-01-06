@@ -171,12 +171,16 @@ func ExampleType_Format_ascii() {
 	fmt.Printf("%z\n", font8x8.U0056)
 
 	fmt.Print("U+0057 (W)   LATIN CAPITAL LETTER W\n\n")
+	fmt.Printf("%z\n", font8x8.U0057)
 
 	fmt.Print("U+0058 (X)   LATIN CAPITAL LETTER X\n\n")
+	fmt.Printf("%z\n", font8x8.U0058)
 
 	fmt.Print("U+0059 (Y)   LATIN CAPITAL LETTER Y\n\n")
+	fmt.Printf("%z\n", font8x8.U0059)
 
 	fmt.Print("U+005A (Z)   LATIN CAPITAL LETTER Z\n\n")
+	fmt.Printf("%z\n", font8x8.U005A)
 
 	// Output:
 	//
@@ -776,9 +780,45 @@ func ExampleType_Format_ascii() {
 	//
 	// U+0057 (W)   LATIN CAPITAL LETTER W
 	//
+	// ██░░░██░
+	// ██░░░██░
+	// ██░░░██░
+	// ██░█░██░
+	// ███████░
+	// ███░███░
+	// ██░░░██░
+	// ░░░░░░░░
+	//
 	// U+0058 (X)   LATIN CAPITAL LETTER X
+	//
+	// ██░░░██░
+	// ██░░░██░
+	// ░██░██░░
+	// ░░███░░░
+	// ░░███░░░
+	// ░██░██░░
+	// ██░░░██░
+	// ░░░░░░░░
 	//
 	// U+0059 (Y)   LATIN CAPITAL LETTER Y
 	//
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░████░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
 	// U+005A (Z)   LATIN CAPITAL LETTER Z
+	//
+	// ███████░
+	// ██░░░██░
+	// █░░░██░░
+	// ░░░██░░░
+	// ░░██░░█░
+	// ░██░░██░
+	// ███████░
+	// ░░░░░░░░
 }
