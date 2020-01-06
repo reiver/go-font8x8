@@ -104,6 +104,62 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+0040 (@)   AT SIGN\n\n")
 	fmt.Printf("%z\n", font8x8.U0040)
 
+	fmt.Print("U+0041 (A)   LATIN CAPITAL LETTER A\n\n")
+	fmt.Printf("%z\n", font8x8.U0041)
+
+	fmt.Print("U+0042 (B)   LATIN CAPITAL LETTER B\n\n")
+	fmt.Printf("%z\n", font8x8.U0042)
+
+	fmt.Print("U+0043 (C)   LATIN CAPITAL LETTER C\n\n")
+	fmt.Printf("%z\n", font8x8.U0043)
+
+	fmt.Print("U+0044 (D)   LATIN CAPITAL LETTER D\n\n")
+	fmt.Printf("%z\n", font8x8.U0044)
+
+	fmt.Print("U+0045 (E)   LATIN CAPITAL LETTER E\n\n")
+
+	fmt.Print("U+0046 (F)   LATIN CAPITAL LETTER F\n\n")
+
+	fmt.Print("U+0047 (G)   LATIN CAPITAL LETTER G\n\n")
+
+	fmt.Print("U+0048 (H)   LATIN CAPITAL LETTER H\n\n")
+
+	fmt.Print("U+0049 (I)   LATIN CAPITAL LETTER I\n\n")
+
+	fmt.Print("U+004A (J)   LATIN CAPITAL LETTER J\n\n")
+
+	fmt.Print("U+004B (K)   LATIN CAPITAL LETTER K\n\n")
+
+	fmt.Print("U+004C (L)   LATIN CAPITAL LETTER L\n\n")
+
+	fmt.Print("U+004D (M)   LATIN CAPITAL LETTER M\n\n")
+
+	fmt.Print("U+004E (N)   LATIN CAPITAL LETTER N\n\n")
+
+	fmt.Print("U+004F (O)   LATIN CAPITAL LETTER O\n\n")
+
+	fmt.Print("U+0050 (P)   LATIN CAPITAL LETTER P\n\n")
+
+	fmt.Print("U+0051 (Q)   LATIN CAPITAL LETTER Q\n\n")
+
+	fmt.Print("U+0052 (R)   LATIN CAPITAL LETTER R\n\n")
+
+	fmt.Print("U+0053 (S)   LATIN CAPITAL LETTER S\n\n")
+
+	fmt.Print("U+0054 (T)   LATIN CAPITAL LETTER T\n\n")
+
+	fmt.Print("U+0055 (U)   LATIN CAPITAL LETTER U\n\n")
+
+	fmt.Print("U+0056 (V)   LATIN CAPITAL LETTER V\n\n")
+
+	fmt.Print("U+0057 (W)   LATIN CAPITAL LETTER W\n\n")
+
+	fmt.Print("U+0058 (X)   LATIN CAPITAL LETTER X\n\n")
+
+	fmt.Print("U+0059 (Y)   LATIN CAPITAL LETTER Y\n\n")
+
+	fmt.Print("U+005A (Z)   LATIN CAPITAL LETTER Z\n\n")
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -457,4 +513,92 @@ func ExampleType_Format_ascii() {
 	// ██░░░░░░
 	// ░████░░░
 	// ░░░░░░░░
+	//
+	// U+0041 (A)   LATIN CAPITAL LETTER A
+	//
+	// ░░██░░░░
+	// ░████░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██████░░
+	// ██░░██░░
+ 	// ██░░██░░
+	// ░░░░░░░░
+	//
+	// U+0042 (B)   LATIN CAPITAL LETTER B
+	//
+	// ██████░░
+	// ░██░░██░
+	// ░██░░██░
+	// ░█████░░
+	// ░██░░██░
+	// ░██░░██░
+	// ██████░░
+	// ░░░░░░░░
+	//
+	// U+0043 (C)   LATIN CAPITAL LETTER C
+	//
+	// ░░████░░
+	// ░██░░██░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ░██░░██░
+	// ░░████░░
+	// ░░░░░░░░
+	//
+	// U+0044 (D)   LATIN CAPITAL LETTER D
+	//
+	// █████░░░
+	// ░██░██░░
+	// ░██░░██░
+	// ░██░░██░
+	// ░██░░██░
+	// ░██░██░░
+	// █████░░░
+	// ░░░░░░░░
+	//
+	// U+0045 (E)   LATIN CAPITAL LETTER E
+	//
+	// U+0046 (F)   LATIN CAPITAL LETTER F
+	//
+	// U+0047 (G)   LATIN CAPITAL LETTER G
+	//
+	// U+0048 (H)   LATIN CAPITAL LETTER H
+	//
+	// U+0049 (I)   LATIN CAPITAL LETTER I
+	//
+	// U+004A (J)   LATIN CAPITAL LETTER J
+	//
+	// U+004B (K)   LATIN CAPITAL LETTER K
+	//
+	// U+004C (L)   LATIN CAPITAL LETTER L
+	//
+	// U+004D (M)   LATIN CAPITAL LETTER M
+	//
+	// U+004E (N)   LATIN CAPITAL LETTER N
+	//
+	// U+004F (O)   LATIN CAPITAL LETTER O
+	//
+	// U+0050 (P)   LATIN CAPITAL LETTER P
+	//
+	// U+0051 (Q)   LATIN CAPITAL LETTER Q
+	//
+	// U+0052 (R)   LATIN CAPITAL LETTER R
+	//
+	// U+0053 (S)   LATIN CAPITAL LETTER S
+	//
+	// U+0054 (T)   LATIN CAPITAL LETTER T
+	//
+	// U+0055 (U)   LATIN CAPITAL LETTER U
+	//
+	// U+0056 (V)   LATIN CAPITAL LETTER V
+	//
+	// U+0057 (W)   LATIN CAPITAL LETTER W
+	//
+	// U+0058 (X)   LATIN CAPITAL LETTER X
+	//
+	// U+0059 (Y)   LATIN CAPITAL LETTER Y
+	//
+	// U+005A (Z)   LATIN CAPITAL LETTER Z
 }
