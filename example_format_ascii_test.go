@@ -278,6 +278,18 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+007A (z)   LATIN SMALL LETTER z\n\n")
 	fmt.Printf("%z\n", font8x8.U007A)
 
+	fmt.Print("U+007B ({)   LEFT CURLY BRACKET\n\n")
+	fmt.Printf("%z\n", font8x8.U007B)
+
+	fmt.Print("U+007C (|)   VERTICAL LINE\n\n")
+	fmt.Printf("%z\n", font8x8.U007C)
+
+	fmt.Print("U+007D (})   RIGHT CURLY BRACKET\n\n")
+	fmt.Printf("%z\n", font8x8.U007D)
+
+	fmt.Print("U+007E (~)   TILDE\n\n")
+	fmt.Printf("%z\n", font8x8.U007E)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -1269,4 +1281,49 @@ func ExampleType_Format_ascii() {
 	// ░██░░█░░
 	// ██████░░
 	// ░░░░░░░░
+	//
+	// U+007B ({)   LEFT CURLY BRACKET
+	//
+	// ░░░███░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ███░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░███░░
+	// ░░░░░░░░
+	//
+	// U+007C (|)   VERTICAL LINE
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	//
+	// U+007D (})   RIGHT CURLY BRACKET
+	//
+	// ███░░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░███░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ███░░░░░
+	// ░░░░░░░░
+	//
+	// U+007E (~)   TILDE
+	//
+	// ░███░██░
+	// ██░███░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
 }
+
