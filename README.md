@@ -54,7 +54,7 @@ I.e., zero (0) is empty space, and one (1) is character.
 
 ## Credits
 
-These font we (originally) created by **Marcel Sondaar** and released by him into the **public domain**.
+These font were (originally) created by **Marcel Sondaar** and released by him into the **public domain**.
 ```
 ; Summary: font8_8.asm
 ; 8x8 monochrome bitmap fonts for rendering
