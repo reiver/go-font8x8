@@ -251,6 +251,33 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+0071 (q)   LATIN SMALL LETTER q\n\n")
 	fmt.Printf("%z\n", font8x8.U0071)
 
+	fmt.Print("U+0072 (r)   LATIN SMALL LETTER r\n\n")
+	fmt.Printf("%z\n", font8x8.U0072)
+
+	fmt.Print("U+0073 (s)   LATIN SMALL LETTER s\n\n")
+	fmt.Printf("%z\n", font8x8.U0073)
+
+	fmt.Print("U+0074 (t)   LATIN SMALL LETTER t\n\n")
+	fmt.Printf("%z\n", font8x8.U0074)
+
+	fmt.Print("U+0075 (u)   LATIN SMALL LETTER u\n\n")
+	fmt.Printf("%z\n", font8x8.U0075)
+
+	fmt.Print("U+0076 (v)   LATIN SMALL LETTER v\n\n")
+	fmt.Printf("%z\n", font8x8.U0076)
+
+	fmt.Print("U+0077 (w)   LATIN SMALL LETTER w\n\n")
+	fmt.Printf("%z\n", font8x8.U0077)
+
+	fmt.Print("U+0078 (x)   LATIN SMALL LETTER x\n\n")
+	fmt.Printf("%z\n", font8x8.U0078)
+
+	fmt.Print("U+0079 (y)   LATIN SMALL LETTER y\n\n")
+	fmt.Printf("%z\n", font8x8.U0079)
+
+	fmt.Print("U+007A (z)   LATIN SMALL LETTER z\n\n")
+	fmt.Printf("%z\n", font8x8.U007A)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -1143,4 +1170,103 @@ func ExampleType_Format_ascii() {
 	// ░█████░░
 	// ░░░░██░░
 	// ░░░████░
+	//
+	// U+0072 (r)   LATIN SMALL LETTER r
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░███░░
+	// ░███░██░
+	// ░██░░██░
+	// ░██░░░░░
+	// ████░░░░
+	// ░░░░░░░░
+	//
+	// U+0073 (s)   LATIN SMALL LETTER s
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░█████░░
+	// ██░░░░░░
+	// ░████░░░
+	// ░░░░██░░
+	// █████░░░
+	// ░░░░░░░░
+	//
+	// U+0074 (t)   LATIN SMALL LETTER t
+	//
+	// ░░░█░░░░
+	// ░░██░░░░
+	// ░█████░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░█░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	//
+	// U+0075 (u)   LATIN SMALL LETTER u
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░███░██░
+	// ░░░░░░░░
+	//
+	// U+0076 (v)   LATIN SMALL LETTER v
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░████░░░
+	// ░░██░░░░
+	// ░░░░░░░░
+	//
+	// U+0077 (w)   LATIN SMALL LETTER w
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░░██░
+	// ██░█░██░
+	// ███████░
+	// ███████░
+	// ░██░██░░
+	// ░░░░░░░░
+	//
+	// U+0078 (x)   LATIN SMALL LETTER x
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░░██░
+	// ░██░██░░
+	// ░░███░░░
+	// ░██░██░░
+	// ██░░░██░
+	// ░░░░░░░░
+	//
+	// U+0079 (y)   LATIN SMALL LETTER y
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░█████░░
+	// ░░░░██░░
+	// █████░░░
+	//
+	// U+007A (z)   LATIN SMALL LETTER z
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██████░░
+	// █░░██░░░
+	// ░░██░░░░
+	// ░██░░█░░
+	// ██████░░
+	// ░░░░░░░░
 }
