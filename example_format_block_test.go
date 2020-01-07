@@ -56,6 +56,24 @@ func ExampleType_Format_block() {
 	fmt.Print("U+258F (▏) LEFT ONE EIGHTH BLOCK\n\n")
 	fmt.Printf("%z\n", font8x8.U258F)
 
+	fmt.Print("U+2590 (▐) RIGHT HALF BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U2590)
+
+	fmt.Print("U+2591 (░) LIGHT SHADE\n\n")
+	fmt.Printf("%z\n", font8x8.U2591)
+
+	fmt.Print("U+2592 (▒) MEDIUM SHADE\n\n")
+	fmt.Printf("%z\n", font8x8.U2592)
+
+	fmt.Print("U+2593 (▓) DARK SHADE\n\n")
+	fmt.Printf("%z\n", font8x8.U2593)
+
+	fmt.Print("U+2594 (▔) UPPER ONE EIGHTH BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U2594)
+
+	fmt.Print("U+2595 (▕) RIGHT ONE EIGHTH BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U2595)
+
 	// Output:
 	//
 	// U+2580 (▀) UPPER HALF BLOCK
@@ -233,5 +251,70 @@ func ExampleType_Format_block() {
 	// █░░░░░░░
 	// █░░░░░░░
 	// █░░░░░░░
+	//
+	// U+2590 (▐) RIGHT HALF BLOCK
+	//
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	//
+	// U+2591 (░) LIGHT SHADE
+	//
+	// █░█░█░█░
+	// ░░░░░░░░
+	// ░█░█░█░█
+	// ░░░░░░░░
+	// █░█░█░█░
+	// ░░░░░░░░
+	// ░█░█░█░█
+	// ░░░░░░░░
+	//
+	// U+2592 (▒) MEDIUM SHADE
+	//
+	// █░█░█░█░
+	// ░█░█░█░█
+	// █░█░█░█░
+	// ░█░█░█░█
+	// █░█░█░█░
+	// ░█░█░█░█
+	// █░█░█░█░
+	// ░█░█░█░█
+	//
+	// U+2593 (▓) DARK SHADE
+	//
+	// ████████
+	// ░█░█░█░█
+	// ████████
+	// █░█░█░█░
+	// ████████
+	// ░█░█░█░█
+	// ████████
+	// █░█░█░█░
+	//
+	// U+2594 (▔) UPPER ONE EIGHTH BLOCK
+	//
+	// ████████
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2595 (▕) RIGHT ONE EIGHTH BLOCK
+	//
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
+	// ░░░░░░░█
 }
-
