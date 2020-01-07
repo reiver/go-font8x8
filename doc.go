@@ -31,13 +31,13 @@ And formatting that a bit differently (for clarity) we get:
 
 This would correspond to:
 
-	░░░░██░░
-	░░░████░
-	░░██░░██
-	░░██░░██
-	░░██████
-	░░██░░██
-	░░██░░██
+	░░██░░░░
+	░████░░░
+	██░░██░░
+	██░░██░░
+	██████░░
+	██░░██░░
+	██░░██░░
 	░░░░░░░░
 
 I.e., zero (0) is empty space, and one (1) is character.
