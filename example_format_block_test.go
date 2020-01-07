@@ -74,6 +74,36 @@ func ExampleType_Format_block() {
 	fmt.Print("U+2595 (▕) RIGHT ONE EIGHTH BLOCK\n\n")
 	fmt.Printf("%z\n", font8x8.U2595)
 
+	fmt.Print("U+2596 (▖) QUADRANT LOWER LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U2596)
+
+	fmt.Print("U+2597 (▗) QUADRANT LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2597)
+
+	fmt.Print("U+2598 (▘) QUADRANT UPPER LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U2598)
+
+	fmt.Print("U+2599 (▙) QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2599)
+
+	fmt.Print("U+259A (▚) QUADRANT UPPER LEFT AND LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U259A)
+
+	fmt.Print("U+259B (▛) QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U259B)
+
+	fmt.Print("U+259C (▜) QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U259C)
+
+	fmt.Print("U+259D (▝) QUADRANT UPPER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U259D)
+
+	fmt.Print("U+259E (▞) QUADRANT UPPER RIGHT AND LOWER LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U259E)
+
+	fmt.Print("U+259F (▟) QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U259F)
+
 	// Output:
 	//
 	// U+2580 (▀) UPPER HALF BLOCK
@@ -317,4 +347,115 @@ func ExampleType_Format_block() {
 	// ░░░░░░░█
 	// ░░░░░░░█
 	// ░░░░░░░█
+	//
+	// U+2596 (▖) QUADRANT LOWER LEFT
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	//
+	// U+2597 (▗) QUADRANT LOWER RIGHT
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	//
+	// U+2598 (▘) QUADRANT UPPER LEFT
+	//
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2599 (▙) QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT
+	//
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████████
+	// ████████
+	// ████████
+	// ████████
+	//
+	// U+259A (▚) QUADRANT UPPER LEFT AND LOWER RIGHT
+	//
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	//
+	// U+259B (▛) QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT
+	//
+	// ████████
+	// ████████
+	// ████████
+	// ████████
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	//
+	//
+	// U+259C (▜) QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT
+	//
+	// ████████
+	// ████████
+	// ████████
+	// ████████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	//
+	// U+259D (▝) QUADRANT UPPER RIGHT
+	//
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+259E (▞) QUADRANT UPPER RIGHT AND LOWER LEFT
+	//
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	//
+	// U+259F (▟) QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT
+	//
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ░░░░████
+	// ████████
+	// ████████
+	// ████████
+	// ████████
 }
