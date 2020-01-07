@@ -182,6 +182,24 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+005A (Z)   LATIN CAPITAL LETTER Z\n\n")
 	fmt.Printf("%z\n", font8x8.U005A)
 
+	fmt.Print("U+005B ([)   LEFT SQUARE BRACKET\n\n")
+	fmt.Printf("%z\n", font8x8.U005B)
+
+	fmt.Print("U+005C (\\)   REVERSE SOLIDUS\n\n")
+	fmt.Printf("%z\n", font8x8.U005C)
+
+	fmt.Print("U+005D (])   RIGHT SQUARE BRACKET\n\n")
+	fmt.Printf("%z\n", font8x8.U005D)
+
+	fmt.Print("U+005E (^)   CIRCUMFLEX ACCENT\n\n")
+	fmt.Printf("%z\n", font8x8.U005E)
+
+	fmt.Print("U+005F (_)   LOW LINE\n\n")
+	fmt.Printf("%z\n", font8x8.U005F)
+
+	fmt.Print("U+0060 (`)   GRAVE ACCENT\n\n")
+	fmt.Printf("%z\n", font8x8.U0060)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -820,5 +838,71 @@ func ExampleType_Format_ascii() {
 	// ░░██░░█░
 	// ░██░░██░
 	// ███████░
+	// ░░░░░░░░
+	//
+	// U+005B ([)   LEFT SQUARE BRACKET
+	//
+	// ░████░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+005C (\)   REVERSE SOLIDUS
+	//
+	// ██░░░░░░
+	// ░██░░░░░
+	// ░░██░░░░
+	// ░░░██░░░
+	// ░░░░██░░
+	// ░░░░░██░
+	// ░░░░░░█░
+	// ░░░░░░░░
+	//
+	// U+005D (])   RIGHT SQUARE BRACKET
+	//
+	// ░████░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+005E (^)   CIRCUMFLEX ACCENT
+	//
+	// ░░░█░░░░
+	// ░░███░░░
+	// ░██░██░░
+	// ██░░░██░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+005F (_)   LOW LINE
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████████
+	//
+	// U+0060 (`)   GRAVE ACCENT
+	//
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
 	// ░░░░░░░░
 }
