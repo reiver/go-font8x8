@@ -200,6 +200,27 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+0060 (`)   GRAVE ACCENT\n\n")
 	fmt.Printf("%z\n", font8x8.U0060)
 
+	fmt.Print("U+0061 (a)   LATIN SMALL LETTER a\n\n")
+	fmt.Printf("%z\n", font8x8.U0061)
+
+	fmt.Print("U+0062 (b)   LATIN SMALL LETTER b\n\n")
+	fmt.Printf("%z\n", font8x8.U0062)
+
+	fmt.Print("U+0063 (c)   LATIN SMALL LETTER c\n\n")
+	fmt.Printf("%z\n", font8x8.U0063)
+
+	fmt.Print("U+0064 (d)   LATIN SMALL LETTER d\n\n")
+	fmt.Printf("%z\n", font8x8.U0064)
+
+	fmt.Print("U+0065 (e)   LATIN SMALL LETTER e\n\n")
+	fmt.Printf("%z\n", font8x8.U0065)
+
+	fmt.Print("U+0066 (f)   LATIN SMALL LETTER f\n\n")
+	fmt.Printf("%z\n", font8x8.U0066)
+
+	fmt.Print("U+0067 (g)   LATIN SMALL LETTER g\n\n")
+	fmt.Printf("%z\n", font8x8.U0067)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -905,4 +926,81 @@ func ExampleType_Format_ascii() {
 	// ░░░░░░░░
 	// ░░░░░░░░
 	// ░░░░░░░░
+	//
+	// U+0061 (a)   LATIN SMALL LETTER a
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░████░░░
+	// ░░░░██░░
+	// ░█████░░
+	// ██░░██░░
+	// ░███░██░
+	// ░░░░░░░░
+	//
+	// U+0062 (b)   LATIN SMALL LETTER b
+	//
+	// ███░░░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ░█████░░
+	// ░██░░██░
+	// ░██░░██░
+	// ██░███░░
+	// ░░░░░░░░
+	//
+	// U+0063 (c)   LATIN SMALL LETTER c
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░████░░░
+	// ██░░██░░
+	// ██░░░░░░
+	// ██░░██░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+0064 (d)   LATIN SMALL LETTER d
+	//
+	// ░░░███░░
+	// ░░░░██░░
+	// ░░░░██░░
+	// ░█████░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░███░██░
+	// ░░░░░░░░
+	//
+	// U+0065 (e)   LATIN SMALL LETTER e
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░████░░░
+	// ██░░██░░
+	// ██████░░
+	// ██░░░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+0066 (f)   LATIN SMALL LETTER f
+	//
+	// ░░███░░░
+	// ░██░██░░
+	// ░██░░░░░
+	// ████░░░░
+	// ░██░░░░░
+	// ░██░░░░░
+	// ████░░░░
+	// ░░░░░░░░
+	//
+	// U+0067 (g)   LATIN SMALL LETTER g
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░███░██░
+	// ██░░██░░
+	// ██░░██░░
+	// ░█████░░
+	// ░░░░██░░
+	// █████░░░
 }
