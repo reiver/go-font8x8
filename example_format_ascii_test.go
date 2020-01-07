@@ -221,6 +221,36 @@ func ExampleType_Format_ascii() {
 	fmt.Print("U+0067 (g)   LATIN SMALL LETTER g\n\n")
 	fmt.Printf("%z\n", font8x8.U0067)
 
+	fmt.Print("U+0068 (h)   LATIN SMALL LETTER h\n\n")
+	fmt.Printf("%z\n", font8x8.U0068)
+
+	fmt.Print("U+0069 (i)   LATIN SMALL LETTER i\n\n")
+	fmt.Printf("%z\n", font8x8.U0069)
+
+	fmt.Print("U+006A (j)   LATIN SMALL LETTER j\n\n")
+	fmt.Printf("%z\n", font8x8.U006A)
+
+	fmt.Print("U+006B (k)   LATIN SMALL LETTER k\n\n")
+	fmt.Printf("%z\n", font8x8.U006B)
+
+	fmt.Print("U+006C (l)   LATIN SMALL LETTER l\n\n")
+	fmt.Printf("%z\n", font8x8.U006C)
+
+	fmt.Print("U+006D (m)   LATIN SMALL LETTER m\n\n")
+	fmt.Printf("%z\n", font8x8.U006D)
+
+	fmt.Print("U+006E (n)   LATIN SMALL LETTER n\n\n")
+	fmt.Printf("%z\n", font8x8.U006E)
+
+	fmt.Print("U+006F (o)   LATIN SMALL LETTER o\n\n")
+	fmt.Printf("%z\n", font8x8.U006F)
+
+	fmt.Print("U+0070 (p)   LATIN SMALL LETTER p\n\n")
+	fmt.Printf("%z\n", font8x8.U0070)
+
+	fmt.Print("U+0071 (q)   LATIN SMALL LETTER q\n\n")
+	fmt.Printf("%z\n", font8x8.U0071)
+
 	// Output:
 	//
 	// U+0021 (!)   EXPLAMATION MARK
@@ -1003,4 +1033,114 @@ func ExampleType_Format_ascii() {
 	// ░█████░░
 	// ░░░░██░░
 	// █████░░░
+	//
+	// U+0068 (h)   LATIN SMALL LETTER h
+	//
+	// ███░░░░░
+	// ░██░░░░░
+	// ░██░██░░
+	// ░███░██░
+	// ░██░░██░
+	// ░██░░██░
+	// ███░░██░
+	// ░░░░░░░░
+	//
+	// U+0069 (i)   LATIN SMALL LETTER i
+	//
+	// ░░██░░░░
+	// ░░░░░░░░
+	// ░███░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+006A (j)   LATIN SMALL LETTER j
+	//
+	// ░░░░██░░
+	// ░░░░░░░░
+	// ░░░░██░░
+	// ░░░░██░░
+	// ░░░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░████░░░
+	//
+	// U+006B (k)   LATIN SMALL LETTER k
+	//
+	// ███░░░░░
+	// ░██░░░░░
+	// ░██░░██░
+	// ░██░██░░
+	// ░████░░░
+	// ░██░██░░
+	// ███░░██░
+	// ░░░░░░░░
+	//
+	// U+006C (l)   LATIN SMALL LETTER l
+	//
+	// ░███░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░░██░░░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+006D (m)   LATIN SMALL LETTER m
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░██░░
+	// ███████░
+	// ███████░
+	// ██░█░██░
+	// ██░░░██░
+	// ░░░░░░░░
+	//
+	// U+006E (n)   LATIN SMALL LETTER n
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// █████░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░░░░░░░░
+	//
+	// U+006F (o)   LATIN SMALL LETTER o
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░████░░░
+	// ██░░██░░
+	// ██░░██░░
+	// ██░░██░░
+	// ░████░░░
+	// ░░░░░░░░
+	//
+	// U+0070 (p)   LATIN SMALL LETTER p
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░███░░
+	// ░██░░██░
+	// ░██░░██░
+	// ░█████░░
+	// ░██░░░░░
+	// ████░░░░
+	//
+	// U+0071 (q)   LATIN SMALL LETTER q
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░███░██░
+	// ██░░██░░
+	// ██░░██░░
+	// ░█████░░
+	// ░░░░██░░
+	// ░░░████░
 }
