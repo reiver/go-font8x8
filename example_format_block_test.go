@@ -35,6 +35,27 @@ func ExampleType_Format_block() {
 	fmt.Print("U+2588 (█) FULL BLOCK\n\n")
 	fmt.Printf("%z\n", font8x8.U2588)
 
+	fmt.Print("U+2589 (▉) LEFT SEVEN EIGHTHS BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U2589)
+
+	fmt.Print("U+258A (▊) LEFT THREE QUARTERS BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258A)
+
+	fmt.Print("U+258B (▋) LEFT FIVE EIGHTHS BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258B)
+
+	fmt.Print("U+258C (▌) LEFT HALF BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258C)
+
+	fmt.Print("U+258D (▍) LEFT THREE EIGHTHS BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258D)
+
+	fmt.Print("U+258E (▎) LEFT ONE QUARTER BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258E)
+
+	fmt.Print("U+258F (▏) LEFT ONE EIGHTH BLOCK\n\n")
+	fmt.Printf("%z\n", font8x8.U258F)
+
 	// Output:
 	//
 	// U+2580 (▀) UPPER HALF BLOCK
@@ -135,5 +156,82 @@ func ExampleType_Format_block() {
 	// ████████
 	// ████████
 	// ████████
+	//
+	// U+2589 (▉) LEFT SEVEN EIGHTHS BLOCK
+	//
+	// ███████░
+	// ███████░
+	// ███████░
+	// ███████░
+	// ███████░
+	// ███████░
+	// ███████░
+	// ███████░
+	//
+	// U+258A (▊) LEFT THREE QUARTERS BLOCK
+	//
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	// ██████░░
+	//
+	// U+258B (▋) LEFT FIVE EIGHTHS BLOCK
+	//
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	// █████░░░
+	//
+	// U+258C (▌) LEFT HALF BLOCK
+	//
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	// ████░░░░
+	//
+	// U+258D (▍) LEFT THREE EIGHTHS BLOCK
+	//
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	// ███░░░░░
+	//
+	// U+258E (▎) LEFT ONE QUARTER BLOCK
+	//
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	// ██░░░░░░
+	//
+	// U+258F (▏) LEFT ONE EIGHTH BLOCK
+	//
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
+	// █░░░░░░░
 }
 
