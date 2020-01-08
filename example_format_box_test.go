@@ -326,6 +326,15 @@ func ExampleType_Format_box() {
 	fmt.Print("U+2569 (╩) BOX DRAWINGS DOUBLE UP AND HORIZONTAL\n\n")
 	fmt.Printf("%z\n", font8x8.U2569)
 
+	fmt.Print("U+256A (╪) BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE\n\n")
+	fmt.Printf("%z\n", font8x8.U256A)
+
+	fmt.Print("U+256B (╫) BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE\n\n")
+	fmt.Printf("%z\n", font8x8.U256B)
+
+	fmt.Print("U+256C (╬) BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U256C)
+
 	// Output:
 	//
 	// U+2500 (─) BOX DRAWINGS LIGHT HORIZONTAL
@@ -1493,4 +1502,37 @@ func ExampleType_Format_box() {
 	// ████████
 	// ░░░░░░░░
 	// ░░░░░░░░
+	//
+	// U+256A (╪) BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ░░░█░░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+256B (╫) BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ████████
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+256C (╬) BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ███░████
+	// ░░░░░░░░
+	// ███░████
+	// ░░█░█░░░
+	// ░░█░█░░░
 }
