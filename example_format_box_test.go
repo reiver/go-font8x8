@@ -188,6 +188,54 @@ func ExampleType_Format_box() {
 	fmt.Print("U+253B (┻) BOX DRAWINGS HEAVY UP AND HORIZONTAL\n\n")
 	fmt.Printf("%z\n", font8x8.U253B)
 
+	fmt.Print("U+253C (┼) BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U253C)
+
+	fmt.Print("U+253D (┽) BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U253D)
+
+	fmt.Print("U+253E (┾) BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U253E)
+
+	fmt.Print("U+253F (┿) BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY\n\n")
+	fmt.Printf("%z\n", font8x8.U253F)
+
+	fmt.Print("U+2540 (╀) BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2540)
+
+	fmt.Print("U+2541 (╁) BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2541)
+
+	fmt.Print("U+2542 (╂) BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2542)
+
+	fmt.Print("U+2543 (╃) BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2543)
+
+	fmt.Print("U+2544 (╄) BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2544)
+
+	fmt.Print("U+2545 (╅) BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2545)
+
+	fmt.Print("U+2546 (╆) BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2546)
+
+	fmt.Print("U+2547 (╈) BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY\n\n")
+	fmt.Printf("%z\n", font8x8.U2547)
+
+	fmt.Print("U+2548 (╇) BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY\n\n")
+	fmt.Printf("%z\n", font8x8.U2548)
+
+	fmt.Print("U+2549 (╉) BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY\n\n")
+	fmt.Printf("%z\n", font8x8.U2549)
+
+	fmt.Print("U+254A (╊) BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY\n\n")
+	fmt.Printf("%z\n", font8x8.U254A)
+
+	fmt.Print("U+254B (╋) BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U254B)
+
 	// Output:
 	//
 	// U+2500 (─) BOX DRAWINGS LIGHT HORIZONTAL
@@ -849,4 +897,180 @@ func ExampleType_Format_box() {
 	// ░░░░░░░░
 	// ░░░░░░░░
 	// ░░░░░░░░
+	//
+	// U+253C (┼) BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+253D (┽) BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████░░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+253E (┾) BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█████
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+253F (┿) BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2540 (╀) BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2541 (╁) BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2542 (╂) BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2543 (╃) BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// █████░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2544 (╄) BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░█████
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2545 (╅) BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// █████░░░
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2546 (╆) BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█████
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2547 (╈) BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ████████
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2548 (╇) BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2549 (╉) BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// █████░░░
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+254A (╊) BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░█████
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+254B (╋) BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ████████
+	// ████████
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
 }
