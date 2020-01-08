@@ -290,6 +290,42 @@ func ExampleType_Format_box() {
 	fmt.Print("U+255D (╝) BOX DRAWINGS DOUBLE UP AND LEFT\n\n")
 	fmt.Printf("%z\n", font8x8.U255D)
 
+	fmt.Print("U+255E (╞) BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE\n\n")
+	fmt.Printf("%z\n", font8x8.U255E)
+
+	fmt.Print("U+255F (╟) BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE\n\n")
+	fmt.Printf("%z\n", font8x8.U255F)
+
+	fmt.Print("U+2560 (╠) BOX DRAWINGS DOUBLE VERTICAL AND RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2560)
+
+	fmt.Print("U+2561 (╡) BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2561)
+
+	fmt.Print("U+2562 (╢) BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2562)
+
+	fmt.Print("U+2563 (╣) BOX DRAWINGS DOUBLE VERTICAL AND LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U2563)
+
+	fmt.Print("U+2564 (╤) BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2564)
+
+	fmt.Print("U+2565 (╥) BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2565)
+
+	fmt.Print("U+2566 (╦) BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U2566)
+
+	fmt.Print("U+2567 (╧) BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2567)
+
+	fmt.Print("U+2568 (╨) BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE\n\n")
+	fmt.Printf("%z\n", font8x8.U2568)
+
+	fmt.Print("U+2569 (╩) BOX DRAWINGS DOUBLE UP AND HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U2569)
+
 	// Output:
 	//
 	// U+2500 (─) BOX DRAWINGS LIGHT HORIZONTAL
@@ -1323,6 +1359,138 @@ func ExampleType_Format_box() {
 	// ███░█░░░
 	// ░░░░█░░░
 	// █████░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+255E (╞) BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█████
+	// ░░░█░░░░
+	// ░░░█████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+255F (╟) BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░████
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2560 (╠) BOX DRAWINGS DOUBLE VERTICAL AND RIGHT
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░████
+	// ░░█░░░░░
+	// ░░█░████
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2561 (╡) BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████░░░░
+	// ░░░█░░░░
+	// ████░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2562 (╢) BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ███░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2563 (╣) BOX DRAWINGS DOUBLE VERTICAL AND LEFT
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ███░█░░░
+	// ░░░░█░░░
+	// ███░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2564 (╤) BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████████
+	// ░░░░░░░░
+	// ████████
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+2565 (╥) BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████████
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2566 (╦) BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████████
+	// ░░░░░░░░
+	// ███░████
+	// ░░█░█░░░
+	// ░░█░█░░░
+	//
+	// U+2567 (╧) BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ████████
+	// ░░░░░░░░
+	// ████████
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2568 (╨) BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ████████
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2569 (╩) BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ███░████
+	// ░░░░░░░░
+	// ████████
 	// ░░░░░░░░
 	// ░░░░░░░░
 }
