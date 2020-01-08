@@ -236,6 +236,24 @@ func ExampleType_Format_box() {
 	fmt.Print("U+254B (╋) BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL\n\n")
 	fmt.Printf("%z\n", font8x8.U254B)
 
+	fmt.Print("U+254C (╌) BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U254C)
+
+	fmt.Print("U+254D (╍) BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U254D)
+
+	fmt.Print("U+254E (╎) BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL\n\n")
+	fmt.Printf("%z\n", font8x8.U254E)
+
+	fmt.Print("U+254F (╏) BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL\n\n")
+	fmt.Printf("%z\n", font8x8.U254F)
+
+	fmt.Print("U+2550 (═) BOX DRAWINGS DOUBLE HORIZONTAL\n\n")
+	fmt.Printf("%z\n", font8x8.U2550)
+
+	fmt.Print("U+2551 (║) BOX DRAWINGS DOUBLE VERTICAL\n\n")
+	fmt.Printf("%z\n", font8x8.U2551)
+
 	// Output:
 	//
 	// U+2500 (─) BOX DRAWINGS LIGHT HORIZONTAL
@@ -1073,4 +1091,70 @@ func ExampleType_Format_box() {
 	// ░░░██░░░
 	// ░░░██░░░
 	// ░░░██░░░
+	//
+	// U+254C (╌) BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ███░░███
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+254D (╍) BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ███░░███
+	// ███░░███
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+254E (╎) BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+254F (╏) BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL
+	//
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░░██░░░
+	//
+	// U+2550 (═) BOX DRAWINGS DOUBLE HORIZONTAL
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ████████
+	// ░░░░░░░░
+	// ████████
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2551 (║) BOX DRAWINGS DOUBLE VERTICAL
+	//
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
+	// ░░█░█░░░
 }
