@@ -335,6 +335,27 @@ func ExampleType_Format_box() {
 	fmt.Print("U+256C (╬) BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL\n\n")
 	fmt.Printf("%z\n", font8x8.U256C)
 
+	fmt.Print("U+256D (╭) BOX DRAWINGS LIGHT ARC DOWN AND RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U256D)
+
+	fmt.Print("U+256E (╮) BOX DRAWINGS LIGHT ARC DOWN AND LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U256E)
+
+	fmt.Print("U+256F (╯) BOX DRAWINGS LIGHT ARC UP AND LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U256F)
+
+	fmt.Print("U+2570 (╰) BOX DRAWINGS LIGHT ARC UP AND RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2570)
+
+	fmt.Print("U+2571 (╱) BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT\n\n")
+	fmt.Printf("%z\n", font8x8.U2571)
+
+	fmt.Print("U+2572 (╲) BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT\n\n")
+	fmt.Printf("%z\n", font8x8.U2572)
+
+	fmt.Print("U+2573 (╳) BOX DRAWINGS LIGHT DIAGONAL CROSS\n\n")
+	fmt.Printf("%z\n", font8x8.U2573)
+
 	// Output:
 	//
 	// U+2500 (─) BOX DRAWINGS LIGHT HORIZONTAL
@@ -1535,4 +1556,81 @@ func ExampleType_Format_box() {
 	// ███░████
 	// ░░█░█░░░
 	// ░░█░█░░░
+	//
+	// U+256D (╭) BOX DRAWINGS LIGHT ARC DOWN AND RIGHT
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░███
+	// ░░░░█░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+256E (╮) BOX DRAWINGS LIGHT ARC DOWN AND LEFT
+	//
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ██░░░░░░
+	// ░░█░░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	//
+	// U+256F (╯) BOX DRAWINGS LIGHT ARC UP AND LEFT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░█░░░░░
+	// ██░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2570 (╰) BOX DRAWINGS LIGHT ARC UP AND RIGHT
+	//
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░█░░░░
+	// ░░░░█░░░
+	// ░░░░░███
+	// ░░░░░░░░
+	// ░░░░░░░░
+	// ░░░░░░░░
+	//
+	// U+2571 (╱) BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT
+	//
+	// ░░░░░░░█
+	// ░░░░░░█░
+	// ░░░░░█░░
+	// ░░░░█░░░
+	// ░░░█░░░░
+	// ░░█░░░░░
+	// ░█░░░░░░
+	// █░░░░░░░
+	//
+	// U+2572 (╲) BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT
+	//
+	// █░░░░░░░
+	// ░█░░░░░░
+	// ░░█░░░░░
+	// ░░░█░░░░
+	// ░░░░█░░░
+	// ░░░░░█░░
+	// ░░░░░░█░
+	// ░░░░░░░█
+	//
+	// U+2573 (╳) BOX DRAWINGS LIGHT DIAGONAL CROSS
+	//
+	// █░░░░░░█
+	// ░█░░░░█░
+	// ░░█░░█░░
+	// ░░░██░░░
+	// ░░░██░░░
+	// ░░█░░█░░
+	// ░█░░░░█░
+	// █░░░░░░█
 }
