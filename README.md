@@ -34,6 +34,16 @@ Would output:
 ░░░░░░░░
 ```
 
+## "image/draw" Support
+
+This package has support for Go's built-in "image/draw" package.
+
+In particular, a font8x8.Type fits the image.Image interface, and thus can be used as a _source_ image when drawing.
+
+See the following article for more information on how to use Go's built-in "image/draw" package:
+
+https://blog.golang.org/go-imagedraw-package
+
 ## Font Format
 
 This pacage provides 8×8 fonts. Each glyph is stored in a `[8]byte` array.
