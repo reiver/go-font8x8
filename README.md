@@ -8,6 +8,32 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-font8x8?status.svg)](https://godoc.org/github.com/reiver/go-font8x8)
 
+## "fmt" — Fprintf, Printf, Sprintf — Support
+
+This package has support for Go's built-in "fmt" package.
+
+The verb:
+```
+%z	prints the font in block characters.
+```
+
+For example:
+```go
+fmt.Printf("%z", font8x8.U0052)
+```
+
+Would output:
+```
+██████░░
+░██░░██░
+░██░░██░
+░█████░░
+░██░██░░
+░██░░██░
+███░░██░
+░░░░░░░░
+```
+
 ## Font Format
 
 This pacage provides 8×8 fonts. Each glyph is stored in a `[8]byte` array.

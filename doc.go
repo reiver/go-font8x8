@@ -2,6 +2,29 @@
 
 Package font8x8 provides a set of 8×8 fonts for Unicode characters.
 
+Fprintf, Printf, Sprintf Support
+
+This package has support for Go's built-in "fmt" package.
+
+The verb:
+
+	%z     prints the font in block characters.
+
+For example:
+
+	fmt.Printf("%z", font8x8.U0052)
+
+Would output:
+
+	██████░░
+	░██░░██░
+	░██░░██░
+	░█████░░
+	░██░██░░
+	░██░░██░
+	███░░██░
+	░░░░░░░░
+
 Font Format
 
 This pacage provides 8×8 fonts. Each glyph is stored in a [8]byte array.
