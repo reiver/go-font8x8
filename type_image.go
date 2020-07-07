@@ -7,9 +7,9 @@ import (
 
 const (
 	minX = 0
-	maxX = 7
+	maxX = 8
 	minY = 0
-	maxY = 7
+	maxY = 8
 )
 
 // At helps make font8x8.Type fit the image.Image interface.
