@@ -1,7 +1,6 @@
 package font8x8_test
 
 import (
-	"github.com/reiver/go-byteliteral"
 	"github.com/reiver/go-font8x8"
 
 	"fmt"
@@ -17,14 +16,14 @@ func TestTypeFormatA(t *testing.T) {
 	}{
 		{
 			Font: font8x8.Type{
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
-				byteliteral.B00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
+				0b00000000,
 			},
 			Expected:
 				`░░░░░░░░`+"\n"+
@@ -41,14 +40,14 @@ func TestTypeFormatA(t *testing.T) {
 
 		{
 			Font: font8x8.Type{
-				byteliteral.B10000000,
-				byteliteral.B01000000,
-				byteliteral.B00100000,
-				byteliteral.B00010000,
-				byteliteral.B00001000,
-				byteliteral.B00000100,
-				byteliteral.B00000010,
-				byteliteral.B00000001,
+				0b10000000,
+				0b01000000,
+				0b00100000,
+				0b00010000,
+				0b00001000,
+				0b00000100,
+				0b00000010,
+				0b00000001,
 			},
 			Expected:
 				`░░░░░░░█`+"\n"+
@@ -65,14 +64,14 @@ func TestTypeFormatA(t *testing.T) {
 
 		{
 			Font: font8x8.Type{
-				byteliteral.B00000001,
-				byteliteral.B00000010,
-				byteliteral.B00000100,
-				byteliteral.B00001000,
-				byteliteral.B00010000,
-				byteliteral.B00100000,
-				byteliteral.B01000000,
-				byteliteral.B10000000,
+				0b00000001,
+				0b00000010,
+				0b00000100,
+				0b00001000,
+				0b00010000,
+				0b00100000,
+				0b01000000,
+				0b10000000,
 			},
 			Expected:
 				`█░░░░░░░`+"\n"+
@@ -89,14 +88,14 @@ func TestTypeFormatA(t *testing.T) {
 
 		{
 			Font: font8x8.Type{
-				byteliteral.B10000001,
-				byteliteral.B01000010,
-				byteliteral.B00100100,
-				byteliteral.B00011000,
-				byteliteral.B00011000,
-				byteliteral.B00100100,
-				byteliteral.B01000010,
-				byteliteral.B10000001,
+				0b10000001,
+				0b01000010,
+				0b00100100,
+				0b00011000,
+				0b00011000,
+				0b00100100,
+				0b01000010,
+				0b10000001,
 			},
 			Expected:
 				`█░░░░░░█`+"\n"+
@@ -113,14 +112,14 @@ func TestTypeFormatA(t *testing.T) {
 
 		{
 			Font: font8x8.Type{
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
-				byteliteral.B11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
+				0b11111111,
 			},
 			Expected:
 				`████████`+"\n"+
@@ -137,14 +136,14 @@ func TestTypeFormatA(t *testing.T) {
 
 		{
 			Font: font8x8.Type{
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
-				byteliteral.B10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
+				0b10000000,
 			},
 			Expected:
 				`░░░░░░░█`+"\n"+
@@ -158,14 +157,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
-				byteliteral.B01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
+				0b01000000,
 			},
 			Expected:
 				`░░░░░░█░`+"\n"+
@@ -179,14 +178,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
-				byteliteral.B00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
+				0b00100000,
 			},
 			Expected:
 				`░░░░░█░░`+"\n"+
@@ -200,14 +199,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
-				byteliteral.B00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
+				0b00010000,
 			},
 			Expected:
 				`░░░░█░░░`+"\n"+
@@ -221,14 +220,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
-				byteliteral.B00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
+				0b00001000,
 			},
 			Expected:
 				`░░░█░░░░`+"\n"+
@@ -242,14 +241,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
-				byteliteral.B00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
+				0b00000100,
 			},
 			Expected:
 				`░░█░░░░░`+"\n"+
@@ -263,14 +262,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
-				byteliteral.B00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
+				0b00000010,
 			},
 			Expected:
 				`░█░░░░░░`+"\n"+
@@ -284,14 +283,14 @@ func TestTypeFormatA(t *testing.T) {
 		},
 		{
 			Font: font8x8.Type{
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
-				byteliteral.B00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
+				0b00000001,
 			},
 			Expected:
 				`█░░░░░░░`+"\n"+

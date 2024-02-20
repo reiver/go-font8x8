@@ -1,8 +1,6 @@
 package font8x8
 
 import (
-	"github.com/reiver/go-byteliteral"
-
 	"fmt"
 	"io"
 	"strings"
@@ -14,49 +12,49 @@ func (receiver Type) Format(f fmt.State, c rune) {
 		var builder strings.Builder
 
 		for _, b := range receiver {
-			switch b & byteliteral.B00000001 {
+			switch b & 0b00000001 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00000010 {
+			switch b & 0b00000010 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00000100 {
+			switch b & 0b00000100 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00001000 {
+			switch b & 0b00001000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00010000 {
+			switch b & 0b00010000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B00100000 {
+			switch b & 0b00100000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B01000000 {
+			switch b & 0b01000000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
 				builder.WriteRune('█')
 			}
-			switch b & byteliteral.B10000000 {
+			switch b & 0b10000000 {
 			case 0:
 				builder.WriteRune('░')
 			default:
